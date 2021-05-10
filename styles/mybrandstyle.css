@@ -1,0 +1,81 @@
+.top
+{ 
+    background: white;
+    color: black;
+    font-size:60px;
+     font-family:Papyrus;
+     box-shadow:1px 1px 9px 10px #f6cfca;
+     text-align: center;
+}
+
+body{
+    width: 100%;
+    background: white;
+    margin:0px;
+    padding:0px;
+    font-family: 'Papyrus', sans-serif;
+
+    
+}
+
+.color1, .color2, .color3, .color4, .color5 { border:5px solid #fff; width:80px; height:80px; float:left; margin-right:4vw; }
+			.color1 span,.color2 span,.color3 span,.color4 span,.color5 span { background-color:#fff; }
+		.color1 { background: linear-gradient(to right, #f6cfca 0%, #ffe8e5 100%); }
+        .color2 { background-color:#b86b77; }
+		.color3 { background-color:black; }
+		.color4 { background-color:white }
+		
+main,footer{
+    background:linear-gradient(to right, #f6cfca 0%, #ffe8e5 100%);
+
+}
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+  .border-gradient-purple {
+    border-image-source: linear-gradient(to right, #f6cfca 0%, #ffe8e5 100%);
+  }
+  img
+{
+	width:5%;
+}
+footer
+{
+	text-align:center;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.colors{
+    align-self: center;
+}
+.title{
+    text-align: center;
+}
+.typography{
+    margin: 2vw;
+}
+.typography h1
+ { 
+    font:30px ;
+     font-weight:bold;
+    font-family: krona one;
+ }
+.typography h2
+ { 
+        
+        font-family: 'papyrus',sans-serif;
+        color:white
+ }
+.typography h3 
+{
+    font:28px;
+    font-family: 'Hind Siliguri';
+}
+.mission{
+    margin-left: 25vw;
+    margin-right: 10vw;
+}

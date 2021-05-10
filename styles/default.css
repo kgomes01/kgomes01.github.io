@@ -1,0 +1,105 @@
+body{
+	background-color: lightgray;
+	font-family: calibri;
+}
+
+
+
+.topnav{
+	overflow: hidden;
+	margin-left: -8px;
+	margin-right: -8px;
+	position:fixed;
+	top: 0;
+	width: 100%;
+
+}
+.topnav a{
+	float: left;
+	padding: 14px 16px;
+	color: brown;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+.topnav a:hover{
+	background-color:dodgerblue;
+        color: white;
+
+}
+
+header{
+	margin-left: -8px;
+	margin-right: -8px;
+	text-align: center;
+	background-color: lightgray;
+}
+
+h1 {
+	font-family:helvetica;
+  text-align: center;
+  }
+
+h2 {  text-align: center;
+  
+    
+}
+
+h3 { margin-left: -8px;
+   
+   }
+
+main{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: midnightblue;
+	font-size: 23px;
+        
+}
+
+.bottomnav{
+	overflow: hidden;
+	margin-left: -8px;
+	margin-right: -8px;
+        text-align: center;
+
+}
+
+.bottomnav a{
+	/* float: left; */
+	padding: 12px 14px;
+	color: brown;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.bottomnav a:hover{
+	background-color: crimson;
+	color: white;
+       
+
+}
+.contract-link{
+	color: rgb(223, 12, 12);
+}
+.web-250{
+	color: rgb(223, 12, 12);
+}
+	
+footer{
+	text-align: center;
+	text-decoration: rgb(153, 214, 11);
+	margin-bottom: 30px;
+	background-color: lightseagreen;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(30, 255, 124);
+	opacity: 0.9;
+	
+
+}
+
+dt {font-weight:bold;}
